@@ -13,29 +13,35 @@
 <nav>
     <div class="container">
         <div class="logo">Ghost Project</div>
-
         <ul>
             <li><a href="#home">Home</a></li>
             <li><a href="#about-game">About Game</a></li>
             <li><a href="#about-us">About Us</a></li>
-            <li><a href="#socials">Socials</a></li>
             <li><a href="#gameplay">Gameplay</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#character">Playable Character</a></li>
         </ul>
     </div>
 </nav>
 
+<!-- HERO / HOME -->
 <section class="hero" id="home">
-    <div class="hero-content">
-        <h1>Ghost Project</h1>
+    <div class="hero-grid container">
+        <!-- LEFT SIDE: DESCRIPTION -->
+        <div class="hero-text section">
+            <h1>Ghost Project</h1>
+            <p>
+                Step into the shadows and uncover the truth behind terrifying paranormal
+                mysteries. Investigate haunted locations, collect supernatural evidence,
+                and survive encounters with dangerous spirits.
+            </p>
+            <a href="#about-game" class="btn">Discover The Game</a>
+        </div>
 
-        <p class="home-description">
-            Step into the shadows and uncover the truth behind terrifying paranormal
-            mysteries. Investigate haunted locations, collect supernatural evidence,
-            and survive encounters with dangerous spirits.
-        </p>
-
-        <a href="#about-game" class="btn">Discover The Game</a>
+        <!-- RIGHT SIDE: POSTER IMAGE -->
+        <div class="hero-poster">
+            <img src="https://heshshs.github.io/Ghost-Project/PosterGame.png" alt="Ghost Project Poster">
+        </div>
     </div>
 </section>
 
@@ -46,11 +52,9 @@
         <p class="subtitle">
             Ghost Project is a horror survival experience built around realistic ghost hunting mechanics.
         </p>
-
         <p>
             Players explore haunted locations, gather supernatural evidence using advanced equipment,
-            and survive encounters with intelligent spirits. Each ghost has unique behaviors,
-            strengths, and weaknesses, making every mission unpredictable and intense.
+            and survive encounters with intelligent spirits.
         </p>
     </div>
 </section>
@@ -59,108 +63,97 @@
 <section id="about-us" class="section">
     <div class="container">
         <h2>Who We Are</h2>
-        <p class="subtitle">
-            The developers behind Ghost Project.
-        </p>
-
+        <p class="subtitle">The developers behind Ghost Project.</p>
         <div class="about-team">
-
             <div class="member">
-                <img src="https://randomuser.me/api/portraits/men/11.jpg" alt="Jyuan Gabriel Visperas">
+                <img src="https://heshshs.github.io/Ghost-Project/gab.png" alt="Jyuan Gabriel Visperas">
                 <h3>Jyuan Gabriel Visperas</h3>
                 <p>Project Manager</p>
             </div>
-
             <div class="member">
-                <img src="https://randomuser.me/api/portraits/men/22.jpg" alt="Brandon Zamora">
+                <img src="https://heshshs.github.io/Ghost-Project/brandon.png" alt="Brandon Zamora">
                 <h3>Brandon Zamora</h3>
                 <p>3D Designer</p>
             </div>
-
             <div class="member">
-                <img src="https://randomuser.me/api/portraits/men/33.jpg" alt="Johann Calda">
+                <img src="https://heshshs.github.io/Ghost-Project/Calda.png" alt="Johann Calda">
                 <h3>Johann Calda</h3>
                 <p>Document Specialist</p>
             </div>
-
             <div class="member">
-                <img src="https://randomuser.me/api/portraits/men/44.jpg" alt="Deshaun Benedict Virinia">
+                <img src="https://heshshs.github.io/Ghost-Project/Deshaun.JPG" alt="Deshaun Benedict Virinia">
                 <h3>Deshaun Benedict Virinia</h3>
                 <p>Programmer</p>
             </div>
-
         </div>
     </div>
 </section>
 
-<!-- SOCIALS -->
-<section id="socials" class="section dark-section">
+<!-- GALLERY -->
+<section id="gallery" class="section">
     <div class="container">
-        <h2>Connect With Us</h2>
-
-        <div class="card-grid">
-            <div class="card">
-                <h3>Twitter</h3>
-                <p>@GhostProject</p>
-                <button class="btn">Follow</button>
+        <h2>Gallery</h2>
+        <p class="subtitle">Explore haunted locations, intense gameplay moments, and key characters.</p>
+        
+        <div class="gallery-grid">
+            <!-- Haunted Locations as Cards -->
+            <div class="gallery-card">
+                <img src="https://images.unsplash.com/photo-1509248961158-96b74f6e2b1f" alt="Haunted Location 1">
+                <h3>Haunted Mansion</h3>
+                <p>A dark, abandoned mansion where the first investigation takes place.</p>
             </div>
 
-            <div class="card">
-                <h3>Discord</h3>
-                <p>50K Members</p>
-                <button class="btn">Join</button>
+            <div class="gallery-card">
+                <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee" alt="Haunted Location 2">
+                <h3>Old Factory</h3>
+                <p>A creepy factory filled with unexplained noises and ghostly sightings.</p>
             </div>
 
-            <div class="card">
-                <h3>YouTube</h3>
-                <p>200K Subscribers</p>
-                <button class="btn">Subscribe</button>
+            <div class="gallery-card">
+                <img src="https://images.unsplash.com/photo-1524985069026-dd778a71c7b4" alt="Haunted Location 3">
+                <h3>Deserted Hospital</h3>
+                <p>The abandoned hospital hides dark secrets and restless spirits.</p>
+            </div>
+
+            <!-- Characters -->
+            <div class="gallery-card">
+                <img src="https://heshshs.github.io/Ghost-Project/Villain.png" alt="Corrupt Politician">
+                <h3>Corrupt Politician</h3>
+                <p>The main antagonist whose dark deeds unleashed restless spirits across the city.</p>
+            </div>
+
+            <div class="gallery-card">
+                <img src="https://heshshs.github.io/Ghost-Project/GhostGuide.png" alt="Ghost Guide">
+                <h3>Ghost Guide (Anthony Perez)</h3>
+                <p>The mysterious guide who assists the player in uncovering paranormal secrets.</p>
+            </div>
+
+            <div class="gallery-card">
+                <img src="https://heshshs.github.io/Ghost-Project/Goons.png" alt="Goons">
+                <h3>Goons</h3>
+                <p>Minions of the corrupt politician who create obstacles for the investigator.</p>
             </div>
         </div>
     </div>
 </section>
 
-<!-- GAMEPLAY -->
-<section id="gameplay" class="section">
+<!-- PLAYABLE CHARACTER -->
+<section id="character" class="section dark-section">
     <div class="container">
-        <h2>Gameplay</h2>
-
-        <div class="card-grid">
-            <div class="card">
-                <h3>Ghost Types</h3>
-                <p>Different spirits with unique behaviors and weaknesses.</p>
-            </div>
-
-            <div class="card">
-                <h3>Equipment</h3>
-                <p>Use EMF readers, cameras, and spirit boxes.</p>
-            </div>
-
-            <div class="card">
-                <h3>Difficulty</h3>
-                <p>Choose from Easy to Nightmare mode.</p>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- CONTACT -->
-<section id="contact" class="section dark-section">
-    <div class="container">
-        <h2>Contact Us</h2>
-
-        <div class="contact-grid">
-            <form>
-                <input type="text" placeholder="Your Name" required>
-                <input type="email" placeholder="Your Email" required>
-                <textarea rows="5" placeholder="Your Message" required></textarea>
-                <button class="btn">Send Message</button>
-            </form>
-
-            <div class="contact-info">
-                <h3>Support Info</h3>
-                <p>Email: support@ghostproject.com</p>
-                <p>Location: Philippines</p>
+        <h2>Playable Character</h2>
+        <p class="subtitle">Meet the investigator behind the mission.</p>
+        <div class="character-card">
+            <div class="character-boxes">
+                <div class="character-box">
+                    <img src="https://heshshs.github.io/Ghost-Project/PlayableCharacter.png" alt="Paolo Perez 1">
+                    <h3>Paolo Perez</h3>
+                    <p>Placeholder description for Paolo Perez. Add stats, skills, or backstory here.</p>
+                </div>
+                <div class="character-box">
+                    <img src="https://heshshs.github.io/Ghost-Project/PlayableCharacter2.png" alt="Paolo Perez 2">
+                    <h3>Paolo Perez</h3>
+                    <p>Another view or info of Paolo Perez. Replace with actual content or stats.</p>
+                </div>
             </div>
         </div>
     </div>
